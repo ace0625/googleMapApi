@@ -84,8 +84,8 @@
 //                        }
 //                    }];
 //                });
+                [self.resultTableView reloadData];
             }
-            [self.resultTableView reloadData];
         }];
     return YES;
 }
